@@ -16,7 +16,7 @@ import { DotLottieVue } from "@lottiefiles/dotlottie-vue";
 const mode = useColorMode();
 
 // Your two Lottie URLs
-const darkSrc  = 'https://lottie.host/2284c1cb-e4f9-47bc-9d71-84462da701c8/CdhzEchfdP.lottie';
+const darkSrc  = 'https://lottie.host/bc532f77-c6e9-45ea-a9aa-ed8a1a0ee92c/NZOa3J7E1V.lottie';
 const lightSrc = 'https://lottie.host/b9c57522-95c1-4e20-aeb8-6c58f897a0f7/8SrqsysShg.lottie  ';
 
 // Compute which one to use

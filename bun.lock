@@ -4,6 +4,7 @@
     "": {
       "name": "shadcn-vue-landing-page",
       "dependencies": {
+        "@lottiefiles/dotlottie-vue": "^0.6.3",
         "@selemondev/vue3-marquee": "^0.0.8",
         "@vee-validate/zod": "^4.13.2",
         "@vueuse/core": "^11.1.0",
@@ -12,6 +13,7 @@
         "clsx": "^2.1.1",
         "embla-carousel": "^8.3.0",
         "embla-carousel-vue": "^8.3.0",
+        "install": "^0.13.0",
         "lucide-vue-next": "^0.452.0",
         "radix-vue": "^1.9.7",
         "tailwind-merge": "^2.5.3",
@@ -112,6 +114,10 @@
     "@jridgewell/sourcemap-codec": ["@jridgewell/sourcemap-codec@1.5.0", "", {}, "sha512-gv3ZRaISU3fjPAgNsriBRqGWQL6quFx04YMPW/zD8XMLsU32mhCCbfbO6KZFLjvYpCZ8zyDEgqsgf+PwPaM7GQ=="],
 
     "@jridgewell/trace-mapping": ["@jridgewell/trace-mapping@0.3.25", "", { "dependencies": { "@jridgewell/resolve-uri": "^3.1.0", "@jridgewell/sourcemap-codec": "^1.4.14" } }, "sha512-vNk6aEwybGtawWmy/PzwnGDOjCkLWSD2wqvjGGAgOAwCGWySYXfYoxt00IJkTF+8Lb57DwOb3Aa0o9CApepiYQ=="],
+
+    "@lottiefiles/dotlottie-vue": ["@lottiefiles/dotlottie-vue@0.6.3", "", { "dependencies": { "@lottiefiles/dotlottie-web": "0.44.0" }, "peerDependencies": { "vue": "^3.3.4" } }, "sha512-t8uGmuue8Rv/xWOmbG2HkgYWt0KX6m34baOzlPit6cbfrHFXYJcr+BLp06y6tGMJtrtv/y3tK5nqwi4s9WHrkg=="],
+
+    "@lottiefiles/dotlottie-web": ["@lottiefiles/dotlottie-web@0.44.0", "", {}, "sha512-IUWKVciDJI/BMWDWnh7j0Ngd0N8q9ySRAwm84aDqIE07qpmdZ7x1rkIpBaU1yHSNqNYHeh1Rxsl+LC3CY4f0KA=="],
 
     "@nodelib/fs.scandir": ["@nodelib/fs.scandir@2.1.5", "", { "dependencies": { "@nodelib/fs.stat": "2.0.5", "run-parallel": "^1.1.9" } }, "sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g=="],
 
@@ -306,6 +312,8 @@
     "hasown": ["hasown@2.0.2", "", { "dependencies": { "function-bind": "^1.1.2" } }, "sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ=="],
 
     "he": ["he@1.2.0", "", { "bin": "bin/he" }, "sha512-F/1DnUGPopORZi0ni+CvrCgHQ5FyEAHRLSApuYWMmrbSwoN2Mn/7k+Gl38gJnR7yyDZk6WLXwiGod1JOWNDKGw=="],
+
+    "install": ["install@0.13.0", "", {}, "sha512-zDml/jzr2PKU9I8J/xyZBQn8rPCAY//UOYNmR01XwNwyfhEWObo2SWfSl1+0tm1u6PhxLwDnfsT/6jB7OUxqFA=="],
 
     "is-binary-path": ["is-binary-path@2.1.0", "", { "dependencies": { "binary-extensions": "^2.0.0" } }, "sha512-ZMERYes6pDydyuGidse7OsHxtbI7WVeUEozgR/g7rd0xUimYNlvZRE/K2MgZTjWy725IfelLeVcEM97mmtRGXw=="],
 

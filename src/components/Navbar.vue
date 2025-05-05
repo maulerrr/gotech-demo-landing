@@ -134,6 +134,8 @@ const isOpen = ref(false);
     <!-- Actions -->
     <div class="hidden lg:flex items-center space-x-4">
       <ToggleTheme />
+      <ToggleLanguage />
+    
       <Button
         as-child
         size="sm"
@@ -141,9 +143,7 @@ const isOpen = ref(false);
         class="font-bold px-6 py-3 bg-blue-600 hover:bg-blue-400"
       >
         <a href="#contact">{{ getInTouch }}</a>
-      </Button>
-
-      <ToggleLanguage />
+      </Button>      
     </div>
   </header>
 </template>

@@ -27,10 +27,10 @@ const lottieSrc = computed(() =>
 
 <template>
   <!-- 1) Lottie at the very back -->
-  <div class="fixed inset-y-0 left-0 w-1/2 overflow-hidden -z-20">
+  <div class="absolute inset-0 -z-20">
     <DotLottieVue
       :key="lottieSrc"
-      class="absolute top-0 w-[400%] h-full transform -translate-x-1/2"
+      class="absolute inset-0 w-full h-full mix-blend-lighten"
       :autoplay="true"
       :loop="true"
       :segment="[0, 149]"

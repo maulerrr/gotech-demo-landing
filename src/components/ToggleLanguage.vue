@@ -7,18 +7,17 @@ import {
   SelectContent,
   SelectItem,
 } from '@/components/ui/select';
-import { Languages } from 'lucide-vue-next'; // Import the Languages icon
 </script>
 
 <template>
   <Select v-model="locale">
-    <SelectTrigger size="sm" variant="ghost" class="">
-      <!-- Use the Languages icon as the placeholder -->
-      <SelectValue>
-        <Languages class="h-4 w-4" />
-      </SelectValue>
+    <!-- trigger now just shows the current locale code -->
+    <SelectTrigger size="sm" variant="ghost">
+      <SelectValue placeholder="EN" />
     </SelectTrigger>
+
     <SelectContent>
+      <!-- full language names if you prefer -->
       <SelectItem value="en">English</SelectItem>
       <SelectItem value="ru">Русский</SelectItem>
       <SelectItem value="kk">Қазақша</SelectItem>

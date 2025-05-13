@@ -26,15 +26,22 @@ const lottieSrc = computed(() =>
 </script>
 
 <template>
-  <!-- 1) Lottie at the very back -->
-  <div class="absolute inset-0 -z-20">
+  <div class="absolute inset-0 -z-20 pointer-events-none overflow-hidden">
     <DotLottieVue
       :key="lottieSrc"
-      class="absolute inset-0 w-full h-full mix-blend-lighten"
+      :src="lottieSrc"
       :autoplay="true"
       :loop="true"
-      :segment="[0, 149]"
-      :src="lottieSrc"
+      :segment="[0,149]"
+      renderer="svg"
+      preserve-aspect-ratio="xMidYMid meet"
+      class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
+      style="
+        /*keep aspect ratio */
+        min-width: 2000px;
+        width: auto;
+        height: auto;
+      "
     />
   </div>
 
